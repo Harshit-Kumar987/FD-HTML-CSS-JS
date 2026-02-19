@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      /* body {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        min-height: 100vh;
+        margin: 0; 
+        background-color: whitesmoke; 
+      } */
+      .main {
+        display: inline-block;
+        width: 250px;
+        height: auto;
+        background-color: #fff;
+        border-radius: 12px;
+        padding: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border: 1px solid #eee;
+        margin-top: 100px;
+        margin-left: 490px;
+      }
+      img {
+        width: 250px;
+        height: 233px;
+      }
+      .title {
+        display: flex;
+        margin: 0px;
+        margin-top: 2px;
+        padding: 0;
+        justify-content: space-between;
+        align-items: center;
+        width: 250px;
+      }
+      #b1 {
+        border: none;
+        background-color: blue;
+        color: #fff;
+        width: 100px;
+        height: 30px;
+      }
+      #b2 {
+        width: 250px;
+        height: 30px;
+        background-color: rgb(193, 225, 215);
+        border: none;
+      }
+      a {
+        text-decoration: none;
+      }
+      @media screen {
+        max-width: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <img src="asdfg.jpg" />
+      <br />
+      <div class="title">
+        <span id="s1"
+          ><strong><a href="">Product Card</a></strong></span
+        >
+        <button id="b1">Add to Cart</button>
+      </div>
+      <br />
+      <p id="s2">$20</p>
+      <br />
+      <hr />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ratione
+        omnis minus
+      </p>
+      <br />
+      <button id="b2"><a href="">Buy Now</a></button>
+    </div>
+  </body>
+</html>
